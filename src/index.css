@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+  margin: 0;
+  background: url("./assets/images/background.png") repeat;
+  background-size: 30%;
+  font-family: 'Itim', cursive;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: rgb(70, 112, 201)
+}
+
+/* Width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* background: url("./assets/images/background.png") repeat; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a9b3ee;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #707ec9;
+}

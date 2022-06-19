@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.body {
+  max-width: 800px;
+  background-color: white !important;
+  color: black !important;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+.hidden {
+  animation: slideOut 0.7s normal forwards ease-in-out;
+}
+
+.shown {
+  display: block;
+  visibility: visible;
+  animation: slideIn 0.2s normal forwards ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateY(0%);
+  }
+
+  to {
+    transform: translateY(100%);
+    display: none;
+    visibility: hidden;
+  }
+}
