@@ -43,13 +43,13 @@ export default function App() {
           <NavBar />
           <div className="content">
             <Switch>
-              <Route exact path="/">
+              <Route exact path="/cat-call/">
                 <Home />
               </Route>
-              <Route path="/settings">
+              <Route path="/cat-call/settings">
                 <Settings />
               </Route>
-              <Route path="/chat">
+              <Route path="/cat-call/chat">
                 <ChatList />
               </Route>
             </Switch>
